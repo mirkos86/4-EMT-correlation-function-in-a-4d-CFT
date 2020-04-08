@@ -1,4 +1,4 @@
-# 4 EMT correlation function
+# 4 EMT correlation function by Mirko Serino
 
 This is a collection of the files I developed in order to perform and test the explicit calculation of the 4-point function
 of the stress energy tensor in a free conformal field theory in 4 spacetime dimensions.
@@ -49,3 +49,8 @@ Here follows a concise description of the scope and purpose of each notebook:
      
 - The notebooks "Ward_identities_2T_and_3T.nb" and "Ward_identities_4T.nb" check the Ward identities for all of our 
   correlation functions. The first one does so analytically; the second resorts to a numerical check.
+  
+  
+  Have fun !
+  
+  Mirko

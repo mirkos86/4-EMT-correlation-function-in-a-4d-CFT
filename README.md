@@ -50,7 +50,6 @@ Here follows a concise description of the scope and purpose of each notebook:
 - The notebooks "Ward_identities_2T_and_3T.nb" and "Ward_identities_4T.nb" check the Ward identities for all of our 
   correlation functions. The first one does so analytically; the second resorts to a numerical check.
   
+  Have fun and please write me if you encounter any issues !
   
-  Have fun !
-  
-  Mirko
+  Mirko Serino

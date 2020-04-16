@@ -22,33 +22,33 @@ checked by "Ward_identities_2T_and_3T.nb" and "Ward_identities_4T.nb".
 
 Here follows a concise description of the scope and purpose of each notebook: 
 
-- The noteook "tensor_bases_generation.nb" GENERATES the 4 files "tensmom#rank##". 
+- The noteook "tensor_bases/tensor_bases_generation.nb" GENERATES the 4 files "tensmom#rank##". 
   As the name suggests, the tensors in each of these files 
   span a complete basis of tensors which are rank ## products of the metric tensor and # independent momenta. They are 
   needed to check the Ward identities for the 3 and 4 point correlation functions.
     
-- "all_functional_derivatives_computed.nb" generates "all_functional_derivatives". 
-   As detailed in hte paper, our computation requires heavy use of tensor strutures: rank 2, 4 and 6 trace anomalies
+- "functional_derivatives.nb" generates the file "all_functional_derivatives". 
+   As detailed in the paper, our computation requires heavy use of tensor strutures: rank 2, 4 and 6 trace anomalies
    for the 2, 3 and 4 point functions, rank 4, 6 and 8 countertems for the very same correlation functions. 
-   All of them are obained by functionally differentiating scalars consisting of combinations of algebraic 
-   combinations of the Riemann tensor, the Ricci tensor and the Ricci scalar.
+   All of them are obained by functionally differentiating scalars consisting of algebraic 
+   combinations of the Riemann tensor, the Ricci tensor and the Ricci scalar
    The notebook starts by explaining the simplest functional derivatives of the metric tensor and goes on all the way up
    to anomalies counterterms and interaction vertices of the scalar with the background gravitational field, 
    introducing gradually more complex structures. 
-    
--  "all_functional_derivatives_checked.nb" checks that the counterters and the anomalies, which are compted ina. purelynon 
-   perturbative way, obey all the constraints they are supposed to. This is needed to make us more confident about our 
+   The second part of the notebook checks that the counterterms and the anomalies, which are computed non 
+   perturbatively, obey all the constraints they are supposed to. This is needed to make us more confident about our 
    explicit calculations of the Green functions, provided that their divergent parts match the counterterms (they do indeed) 
    and that they pass the check of the trace Ward identies with the anomalies (they do as well).     
 
 - "correlators_calculation.nb" explicitly computes the 2, 3 and 4 point functions, checks that they match the counterterms 
   computed in "all_functional_derivatives_computed.nb" and stores them in 3 files: "T2_scalar", "T3_scalar" and "T4_scalar"
 
-- The ".jpg" files are simply graphical representations of the diagrams computed in "correlators_calculation.nb", 
-  which are loaded in the same notebook just above the line of code computing the corresponding diagram.
+- The .jpg file in the "figures" folder are simply graphical representations of the diagrams computed in    
+  "correlators_calculation.nb" and of the vertices computed in "functional_derivatives.nb", 
+  which are loaded in the same notebooks just above the line of code computing each of them.
      
-- The notebooks "Ward_identities_2T_and_3T.nb" and "Ward_identities_4T.nb" check the Ward identities for all of our 
-  correlation functions. The first one does so analytically; the second resorts to a numerical check.
+- The notebooks "Ward_identities checks the Ward identities for all of our 
+  correlation functions; analytically for two and three-point, numerically for four-point.
   
   Have fun and please write me if you encounter any issues !
   

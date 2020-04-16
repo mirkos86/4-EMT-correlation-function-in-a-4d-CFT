@@ -43,7 +43,7 @@ Here follows a concise description of the scope and purpose of each notebook:
 - "correlators_calculation.nb" explicitly computes the 2, 3 and 4 point functions, checks that they match the counterterms 
   computed in "all_functional_derivatives_computed.nb" and stores them in 3 files: "T2_scalar", "T3_scalar" and "T4_scalar"
 
-- The .jpg file in the "figures" folder are simply graphical representations of the diagrams computed in    
+- The .jpg files in the "figures" folder are simply graphical representations of the diagrams computed in    
   "correlators_calculation.nb" and of the vertices computed in "functional_derivatives.nb", 
   which are loaded in the same notebooks just above the line of code computing each of them.
      

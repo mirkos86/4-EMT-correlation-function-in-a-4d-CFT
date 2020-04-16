@@ -14,9 +14,9 @@ Mathematica (version 10.1 or higher).
 
 PLEASE NOTE: 
 
-1) "all_functional_derivatives_computed.nb" MUST be run once in order to be able to run the rest of the calculation, 
+1) "functional_derivatives.nb" MUST be run once in order to be able to run the rest of the calculation, 
 particularly "correlators_calculation.nb", which in turn MUST be run in order to generate the correlation functions which are 
-checked by "Ward_identities_2T_and_3T.nb" and "Ward_identities_4T.nb".
+checked by "Ward_identities.nb".
 
 2) The packages PackageX and CollierLink must be loaded on the machine where the notebooks are run. 
 
@@ -47,7 +47,7 @@ Here follows a concise description of the scope and purpose of each notebook:
   "correlators_calculation.nb" and of the vertices computed in "functional_derivatives.nb", 
   which are loaded in the same notebooks just above the line of code computing each of them.
      
-- The notebooks "Ward_identities checks the Ward identities for all of our 
+- The notebook "Ward_identities.nb" checks the Ward identities for all of our 
   correlation functions; analytically for two and three-point, numerically for four-point.
   
   Have fun and please write me if you encounter any issues !

@@ -47,7 +47,7 @@ Here follows a concise description of the scope and purpose of each notebook:
   "correlators_calculation.nb" and of the vertices computed in "functional_derivatives.nb", 
   which are loaded in the same notebooks just above the line of code computing each of them.
      
-- The notebook "Ward_identities.nb" checks the Ward identities for all of our 
+- The notebook "ward_identities.nb" checks the Ward identities for all of our 
   correlation functions; analytically for two and three-point, numerically for four-point.
   
   Have fun and please write me if you encounter any issues !

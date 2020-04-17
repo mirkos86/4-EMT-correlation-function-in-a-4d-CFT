@@ -1,4 +1,4 @@
-# 4 EMT correlation function by Mirko Serino
+# 4-EMT-correlation-function-in-a-4d-CFT by Mirko Serino
 
 This is a collection of the files I developed in order to perform and test the explicit calculation of the 4-point function
 of the stress energy tensor in the free conformal field theory of a scala field in 4 spacetime dimensions.

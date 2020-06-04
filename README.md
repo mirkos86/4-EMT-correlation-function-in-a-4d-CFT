@@ -1,13 +1,13 @@
 # 4-EMT-correlation-function-in-a-4d-CFT by Mirko Serino
 
 This is a collection of the files I developed in order to perform and test the explicit calculation of the 4-point function
-of the stress energy tensor in the free conformal field theory of a scala field in 4 spacetime dimensions.
+of the energy-momentum tensor in the free conformal field theory of a scalar field in 4 spacetime dimensions.
 
 Calculations of the 2 and 3 point functions are detailed as well, in order to provide a framework in which the reader can 
-familiarize with the tools employes and with the ideas underpinning the calculations and their tests, if she/he is not yet 
+familiarize with the tools employed and with the ideas underpinning the calculations and their tests, if she/he is not yet 
 familiar with them.
 
-Some of the calculations can be quite time consuming and that the numerical checks of the Ward identities for 
+Some of the calculations can be quite time consuming and the numerical checks of the Ward identities for 
 the 4 point function requires your computer to have least 25 GB of memory at its disposal in order not to crush.
 
 Mathematica (version 10.1 or higher).
@@ -22,7 +22,7 @@ checked by "Ward_identities.nb".
 
 Here follows a concise description of the scope and purpose of each notebook: 
 
-- The noteook "tensor_bases/tensor_bases_generation.nb" GENERATES the 4 files "tensmom#rank##". 
+- The noteook "~tensor_bases/tensor_bases_generation.nb" GENERATES the 4 files "tensmom#rank##". 
   As the name suggests, the tensors in each of these files 
   span a complete basis of tensors which are rank ## products of the metric tensor and # independent momenta. They are 
   needed to check the Ward identities for the 3 and 4 point correlation functions.
@@ -30,8 +30,8 @@ Here follows a concise description of the scope and purpose of each notebook:
 - "functional_derivatives.nb" generates the file "all_functional_derivatives". 
    As detailed in the paper, our computation requires heavy use of tensor strutures: rank 2, 4 and 6 trace anomalies
    for the 2, 3 and 4 point functions, rank 4, 6 and 8 countertems for the very same correlation functions. 
-   All of them are obained by functionally differentiating scalars consisting of algebraic 
-   combinations of the Riemann tensor, the Ricci tensor and the Ricci scalar
+   All of them are obtained by functionally differentiating scalars consisting of algebraic 
+   combinations of the Riemann tensor, the Ricci tensor and the Ricci scalar.
    The notebook starts by explaining the simplest functional derivatives of the metric tensor and goes on all the way up
    to anomalies counterterms and interaction vertices of the scalar with the background gravitational field, 
    introducing gradually more complex structures. 

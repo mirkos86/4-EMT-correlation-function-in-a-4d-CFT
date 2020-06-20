@@ -50,6 +50,10 @@ Here follows a concise description of the scope and purpose of each notebook:
 - The notebook "ward_identities.nb" checks the Ward identities for all of our 
   correlation functions; analytically for two and three-point, numerically for four-point.
   
+- The very short notebook "vanishing_euler_ct.nb" proves that the counterterm obtained by the integrated Euler density 
+  vanishes identically in exactly four spacetime dimensions,as it must be, though not away from it, as happens in Dimensional 
+  Regularization.
+
   Have fun and please write me if you encounter any issues !
   
   Mirko Serino
